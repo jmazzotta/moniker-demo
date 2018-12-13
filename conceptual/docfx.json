@@ -67,12 +67,12 @@
       "uhfHeaderId": "MSDocsHeader-DotNet",
       "extendBreadcrumb": true,
       "feedback_system": "GitHub",
-      "feedback_github_repo": "jmazzotta/markdown-test",
+      "feedback_github_repo": "jmazzotta/moniker-demo",
       "feedback_product_url": "mailto:joemaz@microsoft.com"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "markdown-test",
+    "dest": "moniker-demo",
     "exportRawModel": true,
     "groups": {
       "legacy": {

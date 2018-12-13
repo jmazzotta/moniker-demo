@@ -1,7 +1,7 @@
 {
   "build_entry_point": "docs",
   "docsets_to_publish": [{
-    "docset_name": "moniker-test",
+    "docset_name": "moniker-demo",
     "build_source_folder": "conceptual",
     "build_output_subfolder": "conceptual",
     "locale": "en-us",
