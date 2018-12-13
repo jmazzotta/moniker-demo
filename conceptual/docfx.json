@@ -110,7 +110,7 @@
       },
       "active": {
         "dest": "active",
-        "moniker_range": "= excel-js-1.5"
+        "moniker_range": ">= excel-js-1.5 || <= excel-js-1.6"
       },
       "reference": {
         "dest": "javascript",
