@@ -1,0 +1,12 @@
+- name: JS ref
+  href: index.md
+- name: Overview
+  items:
+  - name: JS overview
+    href: overview.md
+- name: javascript
+  expanded: true
+  items:
+  - name: JS1
+    href: javascript/js.md
+    href: resources/resource-2.md
