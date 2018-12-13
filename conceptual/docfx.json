@@ -33,6 +33,23 @@
           "ThirdPartyNotices"
         ],
         "src": "active"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "group": "reference",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "reference"
       }
     ],
     "resource": [{
@@ -59,6 +76,18 @@
         ],
         "src": "active",
         "group": "active"
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ],
+        "src": "reference",
+        "group": "reference"
       }
     ],
     "overwrite": [],
@@ -82,6 +111,9 @@
       "active": {
         "dest": "active",
         "moniker_range": ">= excel-js-1.7"
+      },
+      "reference": {
+        "dest": "reference"
       }
     },
     "markdownEngineName": "markdig"
