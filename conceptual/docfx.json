@@ -38,19 +38,7 @@
         "files": [
           "**/*.md",
           "**/*.yml"
-        ],
-        "group": "reference",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ],
-        "src": "reference"
-      }
+        ]
     ],
     "resource": [{
         "files": [
@@ -76,18 +64,6 @@
         ],
         "src": "active",
         "group": "active"
-      },
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ],
-        "src": "reference",
-        "group": "reference"
       }
     ],
     "overwrite": [],
@@ -111,10 +87,6 @@
       "active": {
         "dest": "active",
         "moniker_range": ">= excel-js-1.5 || <= excel-js-1.6"
-      },
-      "reference": {
-        "dest": "javascript",
-        "moniker_range": ">= excel-js-1.7"
       }
     },
     "markdownEngineName": "markdig"
