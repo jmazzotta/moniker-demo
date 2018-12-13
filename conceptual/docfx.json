@@ -33,12 +33,7 @@
           "ThirdPartyNotices"
         ],
         "src": "active"
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ]
+      }
     ],
     "resource": [{
         "files": [
