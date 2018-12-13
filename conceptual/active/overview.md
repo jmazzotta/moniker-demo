@@ -11,9 +11,9 @@ This Overview should display for the following monikers:
 * `contosoclient-1.0`
 * `contosoclient-2.0`
 
-::: moniker range="excel-js-1.6"
+::: moniker range="excel-js-1.5"
 
-This region applies only to `1.6`.
+This region applies only to `1.5`.
 
 ::: moniker-end
 

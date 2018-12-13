@@ -106,11 +106,11 @@
     "groups": {
       "legacy": {
         "dest": "legacy",
-        "moniker_range": "< excel-js-1.6"
+        "moniker_range": "= excel-js-1.4"
       },
       "active": {
         "dest": "active",
-        "moniker_range": "= excel-js-1.6"
+        "moniker_range": "= excel-js-1.5"
       },
       "reference": {
         "dest": "javascript",
