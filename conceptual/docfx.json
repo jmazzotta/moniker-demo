@@ -1,24 +1,53 @@
 {
   "build": {
-    "content": [
+    "content": [{
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "group": "legacy",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "legacy"
+      },
       {
         "files": [
           "**/*.md",
           "**/*.yml"
         ],
+        "group": "active",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "active"
       }
     ],
-    "resource": [
+    "resource": [{
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "_themes/**",
+          "**/obj/**",
+          "**/includes/**"
+        ],
+        "src": "legacy",
+        "group": "legacy"
+      },
       {
         "files": [
           "**/*.png",
@@ -26,22 +55,35 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**"
-        ]
+          "**/includes/**"
+        ],
+        "src": "active",
+        "group": "active"
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/moniker-demo/breadcrumb/toc.json",
+      "uhfHeaderId": "MSDocsHeader-DotNet",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "jmazzotta/markdown-test",
+      "feedback_product_url": "mailto:joemaz@microsoft.com"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "moniker-demo",
+    "dest": "markdown-test",
+    "exportRawModel": true,
+    "groups": {
+      "legacy": {
+        "dest": "legacy",
+        "moniker_range": "< excel-js-1.7"
+      },
+      "active": {
+        "dest": "active",
+        "moniker_range": ">= excel-js-1.7"
+      }
+    },
     "markdownEngineName": "markdig"
   }
 }
