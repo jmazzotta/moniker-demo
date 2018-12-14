@@ -39,7 +39,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "group": "reference",
+        "group": "legacy",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -49,7 +49,24 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ],
-        "src": "reference"
+        "src": "legacy"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "group": "active",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "active"
       }
     ],
     "resource": [{
@@ -76,18 +93,6 @@
         ],
         "src": "active",
         "group": "active"
-      },
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ],
-        "src": "reference",
-        "group": "reference"
       }
     ],
     "overwrite": [],
@@ -106,14 +111,10 @@
     "groups": {
       "legacy": {
         "dest": "legacy",
-        "moniker_range": ">= excel-js-1.4"
+        "moniker_range": "< excel-js-1.4"
       },
       "active": {
         "dest": "active",
-        "moniker_range": ">= excel-js-1.4"
-      },
-      "reference": {
-        "dest": "reference",
         "moniker_range": ">= excel-js-1.4"
       }
     },
